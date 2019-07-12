@@ -1,4 +1,6 @@
-# Hugo Future Imperfect
+> **NOTE:** This theme is an extended version of the original Hugo theme, [Hugo Future Imperfect](https://github.com/jpescador/hugo-future-imperfect) by [Julio Pescador](https://jpescador.com). I've noticed that the theme repository hasn't been updated since early **2018** and has >15 PRs, thus why this is here (for my own features, and the extension of the theme by others).
+
+# Hugo Future Imperfect Redux
 
 Future Imperfect is a responsive theme tailored for blogging. The name is of no
 coincidence, because it is a port of [HTML5 UP's theme](http://html5up.net/future-imperfect)
