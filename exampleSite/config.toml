@@ -92,7 +92,7 @@ canonifyURLs = true
 [params.intro]
   header    = "Hugo Future Imperfect Redux"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies. Extended further by Derek Ardolf <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies. Extended further by Derek Ardolf <i class='far fa-hand-peace'></i>"
 
   about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
@@ -119,37 +119,37 @@ canonifyURLs = true
 [[menu.main]]
   name = "Home"
   url = "/"
-  identifier = "fa fa-home"
+  identifier = "fas fa-home"
   weight = 1
 
 [[menu.main]]
   name = "About"
   url = "/about/"
-  identifier = "fa fa-id-card-o"
+  identifier = "far fa-id-card"
   weight = 2
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
-  identifier = "fa fa-newspaper-o"
+  identifier = "far fa-newspaper"
   weight = 3
 
 [[menu.main]]
   name = "Itemized"
   url = "/itemized/"
-  identifier = "fa fa-list"
+  identifier = "fas fa-list"
   weight = 4
 
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
-  identifier = "fa fa-sitemap"
+  identifier = "fas fa-sitemap"
   weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
-  identifier = "fa fa-envelope-o"
+  identifier = "far fa-envelope"
   weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
@@ -199,5 +199,6 @@ canonifyURLs = true
   googlescholar    = ""
   orcid            = ""
   researchgate     = "example"
+  keybase          = "example"
   # Email
   email            = "example"
