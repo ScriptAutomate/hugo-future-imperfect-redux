@@ -242,6 +242,10 @@ Adding `tinyletter` to your `config.toml` will embed a [TinyLetter](https://tiny
 tinyletter = 'https://tinyletter.com/icantevenio'
 ```
 
+Credit: [scriptautomate]
+
+---
+
 ### Gravatar Support
 
 Adding `gravatar` to your `config.toml` will override the `src` profile/image with a [Gravatar](https://www.gravatar.com/) profile image.
