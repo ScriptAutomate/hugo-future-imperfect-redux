@@ -30,6 +30,7 @@ interested in seeing a live example of Hugo Future Imperfect.
 - [New Redux Features](#new-redux-features)
     - [TinyLetter Support](#tinyLetter-support)
 - [About the Authors](#about-the-authors)
+    - [Redux Author](#redux-author)
 - [License](#license)
 
 <!-- /TOC -->
@@ -243,6 +244,19 @@ tinyletter = 'https://tinyletter.com/icantevenio'
 
 Credit: [scriptautomate]
 
+---
+
+### Gravatar Support
+
+Adding `gravatar` to your `config.toml` will override the `src` profile/image with a [Gravatar](https://www.gravatar.com/) profile image.
+
+```toml
+# config.toml / .Site.Params.intro.pic.gravatar
+gravatar = 'gravataruser@email.com'
+```
+
+Credit: [horgix]
+
 ## About the Authors
 
 Hugo Future Imperfect was ported by [Julio Pescador](https://jpescador.com). Extra
@@ -251,7 +265,7 @@ features implemented by the [project contributors](https://github.com/ScriptAuto
 Send Julio Pescador a tweet [@julio_pescador](https://twitter.com/julio_pescador),
 if you like the theme and are using it for your own personal use.
 
-### Redux Features
+### Redux Author
 
 Hugo Future Imperfect Redux is an extended, public clone  of Hugo Future Imperfect. It's managed by [Derek Ardolf](https://icanteven.io), who uses Twitter under [@ScriptAutomate](https://twitter.com/scriptautomate). It was initially created as a clone, in order to incorporate new features to be referenced by his personal website (starting with [TinyLetter support](#tinyLetter-support)).
 
@@ -262,3 +276,4 @@ This theme is released under the MIT license. Please read the [license](https://
 [jpescador]: https://github.com/jpescador
 [pacollins]: https://github.com/pacollins
 [scriptautomate]: https://github.com/scriptautomate
+[horgix]: https://github.com/Horgix
