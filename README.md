@@ -257,7 +257,7 @@ Hugo Future Imperfect Redux is an extended, public clone  of Hugo Future Imperfe
 
 ## License
 
-This theme is released under the MIT license. Please read the [license](https://github.com/jpescador/hugo-future-imperfect/blob/master/LICENSE.md) for more information.
+This theme is released under the MIT license. Please read the [license](https://github.com/ScriptAutomate/hugo-future-imperfect-redux/blob/master/LICENSE.md) for more information.
 
 [jpescador]: https://github.com/jpescador
 [pacollins]: https://github.com/pacollins
