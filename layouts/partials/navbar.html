@@ -66,7 +66,14 @@
             </ul>
         </section>
 
-    <!-- Posts List -->
+        <!-- Subscriber Box -->
+        {{ if .Site.Params.tinyletter }}
+        <section id="subscribe">
+            {{ partial "subscribe" . }}
+        </section>
+        {{ end }}
+
+        <!-- Posts List -->
         <section class="recent-posts">
             <div class="mini-posts">
                 <header>
@@ -105,7 +112,7 @@
             </div>
         </section>
 
-    <!-- Actions -->
+        <!-- Actions -->
         <!--
         <section>
             <ul class="actions vertical">

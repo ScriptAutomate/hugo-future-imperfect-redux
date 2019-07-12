@@ -29,6 +29,13 @@
     {{ end }}
   </section>
 
+  {{ if .Site.Params.tinyletter }}
+  <!-- Subscriber Box -->
+  <section id="subscribe">
+    {{ partial "subscribe" . }}
+  </section>
+  {{ end }}
+
   <!-- Posts List -->
   <section class="recent-posts">
     <div class="mini-posts">
