@@ -257,6 +257,29 @@ gravatar = 'gravataruser@email.com'
 
 Credit: [horgix]
 
+---
+
+### Upgraded to FontAwesome 5
+
+Major sweep in upgrading icon reference from FontAwesome 4 to 5! This took a bit of experimenting, due to some naming convention changes and behavior changes that came along with it.
+
+Credit: [scriptautomate]
+
+---
+
+### Keybase Social Icon Support
+
+Adding `keybase` to your `config.toml` will add a new social icon to your website.
+
+```toml
+# config.toml / .Site.Social.keybase
+keybase = 'username'
+```
+
+Credit: [tygerbytes], with slight modification by [scriptautomate]
+
+---
+
 ## About the Authors
 
 Hugo Future Imperfect was ported by [Julio Pescador](https://jpescador.com). Extra
@@ -277,3 +300,4 @@ This theme is released under the MIT license. Please read the [license](https://
 [pacollins]: https://github.com/pacollins
 [scriptautomate]: https://github.com/scriptautomate
 [horgix]: https://github.com/Horgix
+[tygerbytes]: https://github.com/tygerbytes
