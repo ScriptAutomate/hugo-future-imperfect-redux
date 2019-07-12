@@ -35,11 +35,11 @@ well as being an opportunity for people to learn how to use Git and GitHub.
 1. A [GitHub Account].
 2. Either [Git] (preferable) or [GitHub Desktop]
 3. The latest version of [Hugo][Hugo Release].
-4. The latest version of [hugo-future-imperfect][Head].
+4. The latest version of [hugo-future-imperfect-redux][Head].
 
 ### Forking
 
-Navigate to the theme repository [jpescador/hugo-future-imperfect][head],
+Navigate to the theme repository [scriptautomate/hugo-future-imperfect-redux][head],
 and then click **Fork** in the top right. This will create your copy of the
 theme.
 
@@ -64,7 +64,7 @@ worked on and we can manage it that way.
 
    ```
    cd PATH/TO/YOUR/LOCATION
-   git clone https://github.com/YOUR-USERNAME/hugo-future-imperfect
+   git clone https://github.com/YOUR-USERNAME/hugo-future-imperfect-redux
    ```
 
    You have now cloned your fork to the location specified.
@@ -72,10 +72,10 @@ worked on and we can manage it that way.
 3. **Connecting Fork with Original**
 
    ```
-   git remote add upstream https://github.com/jpescador/hugo-future-imperfect.git
+   git remote add upstream https://github.com/scriptautomate/hugo-future-imperfect-redux.git
    ````
 
-   You have now connected your fork with `jpescador/hugo-future-imperfect`,
+   You have now connected your fork with `scriptautomate/hugo-future-imperfect-redux`,
    the `upstream`.
 
    To confirm this:
@@ -87,10 +87,10 @@ worked on and we can manage it that way.
    Which should return:
 
    ```
-   origin    https://github.com/YOUR_USERNAME/hugo-future-imperfect.git (fetch)
-   origin    https://github.com/YOUR_USERNAME/hugo-future-imperfect.git (push)
-   upstream  https://github.com/jpescador/hugo-future-imperfect.git (fetch)
-   upstream  https://github.com/jpescador/hugo-future-imperfect.git (push)
+   origin    https://github.com/YOUR_USERNAME/hugo-future-imperfect-redux.git (fetch)
+   origin    https://github.com/YOUR_USERNAME/hugo-future-imperfect-redux.git (push)
+   upstream  https://github.com/scriptautomate/hugo-future-imperfect-redux.git (fetch)
+   upstream  https://github.com/scriptautomate/hugo-future-imperfect-redux.git (push)
    ```
 
 4. **Keeping it synced**
@@ -124,7 +124,7 @@ worked on and we can manage it that way.
 1. **Create A Local Copy**
 
    1. **File** -> **Clone Repository...**
-   2. Select your fork, `YOUR_USERNAME\hugo-future-imperfect`
+   2. Select your fork, `YOUR_USERNAME\hugo-future-imperfect-redux`
    3. Choose your local path
    4. Press **Clone**
 
@@ -136,8 +136,8 @@ worked on and we can manage it that way.
    for [v1.1][GitHub Desktop 1.1]. Keep an eye out for that release.
 
    In the meantime, the *best* way to stay in sync is to create a pull request
-   where the `base fork` is `YOUR_USERNAME/hugo-future-imperfect` and the `head
-   fork` is `jpescador/hugo-future-imperfect`.
+   where the `base fork` is `YOUR_USERNAME/hugo-future-imperfect-redux` and the `head
+   fork` is `scriptautomate/hugo-future-imperfect-redux`.
 
 ## Creating an Issue Ticket
 
@@ -152,7 +152,7 @@ couple of things to note from that template are:
    working on the theme and more time having to do clean-up. They are as follows:
 
    - [ ] I am running the [latest version of Hugo][Hugo Release]
-   - [ ] I am using the [latest version of Hugo-Future-Imperfect][Theme Sync]
+   - [ ] I am using the [latest version of Hugo-Future-Imperfect-Redux][Theme Sync]
    - [ ] I checked the [documentation] and found no answer
    - [ ] I checked the [issues][All Issues] to make sure that this issue has not
    already been filed
@@ -187,7 +187,7 @@ organization. A couple of things to note from that template are:
    working on the theme and more time having to do clean-up. They are as follows:
 
    - [ ] I am running the [latest version of Hugo][Hugo Release]
-   - [ ] I am using the [latest version of Hugo-Future-Imperfect][Theme Sync]
+   - [ ] I am using the [latest version of Hugo-Future-Imperfect-Redux][Theme Sync]
    - [ ] I checked the [issues][All Issues]
   to make sure that this feature has not been rejected before
    - [ ] I checked the [pull requests][All Pull Requests]
@@ -221,18 +221,18 @@ any questions you may have. We are here to help.
 
 <!--- Project Specific References -->
 
-[Issue Template]: https://github.com/jpescador/hugo-future-imperfect/blob/master/.github/ISSUE_TEMPLATE.md
-[Issues]: https://github.com/jpescador/hugo-future-imperfect/issues
-[All Issues]: https://github.com/jpescador/hugo-future-imperfect/issues?utf8=%E2%9C%93&q=is%3Aissue
-[Pull Request Template]: https://github.com/jpescador/hugo-future-imperfect/blob/master/.github/PULL_REQUEST_TEMPLATE.md
-[Pull Requests]: https://github.com/jpescador/hugo-future-imperfect/pulls
-[All Pull Requests]: https://github.com/jpescador/hugo-future-imperfect/pulls?utf8=%E2%9C%93&q=is%3Apr
-[Contributors]: https://github.com/jpescador/hugo-future-imperfect/graphs/contributors
-[Documentation]: https://github.com/jpescador/hugo-future-imperfect/wiki
-[Head]: https://github.com/jpescador/hugo-future-imperfect
-[Network]: https://github.com/jpescador/hugo-future-imperfect/network
-[Next Release]: https://github.com/jpescador/hugo-future-imperfect/milestone/1
-[Projects]: https://github.com/jpescador/hugo-future-imperfect/projects
+[Issue Template]: https://github.com/scriptautomate/hugo-future-imperfect-redux/blob/master/.github/ISSUE_TEMPLATE.md
+[Issues]: https://github.com/scriptautomate/hugo-future-imperfect-redux/issues
+[All Issues]: https://github.com/scriptautomate/hugo-future-imperfect-redux/issues?utf8=%E2%9C%93&q=is%3Aissue
+[Pull Request Template]: https://github.com/scriptautomate/hugo-future-imperfect-redux/blob/master/.github/PULL_REQUEST_TEMPLATE.md
+[Pull Requests]: https://github.com/scriptautomate/hugo-future-imperfect-redux/pulls
+[All Pull Requests]: https://github.com/scriptautomate/hugo-future-imperfect-redux/pulls?utf8=%E2%9C%93&q=is%3Apr
+[Contributors]: https://github.com/scriptautomate/hugo-future-imperfect-redux/graphs/contributors
+[Documentation]: https://github.com/scriptautomate/hugo-future-imperfect-redux/wiki
+[Head]: https://github.com/scriptautomate/hugo-future-imperfect-redux
+[Network]: https://github.com/scriptautomate/hugo-future-imperfect-redux/network
+[Next Release]: https://github.com/scriptautomate/hugo-future-imperfect-redux/milestone/1
+[Projects]: https://github.com/scriptautomate/hugo-future-imperfect-redux/projects
 [Theme Sync]: #syncing
 
 <!--- External References -->
