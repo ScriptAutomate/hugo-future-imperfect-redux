@@ -32,6 +32,7 @@ interested in seeing a live example of Hugo Future Imperfect.
     - [Gravatar Support](#gravatar-support)
     - [Upgraded to FontAwesome 5](#upgraded-to-fontawesome-5)
     - [Keybase Social Icon Support](#keybase-social-icon-support)
+    - [Replaced Deprecated Hugo Features](#replaced-deprecated-hugo-features)
 - [About the Authors](#about-the-authors)
     - [Redux Author](#redux-author)
 - [License](#license)
@@ -283,6 +284,16 @@ Credit: [tygerbytes], with slight modification by [scriptautomate]
 
 ---
 
+### Replaced Deprecated Hugo Features
+
+- No longer using the `.Hugo.*` call, but replaced with the global function `hugo.*`
+- No longer using the `.RSSLink.*` call, but replaced with recommended Output Format's link
+
+Credits:
+
+- [noahsbwilliams] for `.Hugo.*` deprecation guidance
+- [scriptautomate] for `.RSSLink.*` deprecation
+
 ## About the Authors
 
 Hugo Future Imperfect was ported by [Julio Pescador](https://jpescador.com). Extra
@@ -304,3 +315,4 @@ This theme is released under the MIT license. Please read the [license](https://
 [scriptautomate]: https://github.com/scriptautomate
 [horgix]: https://github.com/Horgix
 [tygerbytes]: https://github.com/tygerbytes
+[noahsbwilliams]: https://github.com/noahsbwilliams
