@@ -1,4 +1,4 @@
-> **NOTE:** This theme is an extended version of the original Hugo theme, [Hugo Future Imperfect](https://github.com/jpescador/hugo-future-imperfect) by [Julio Pescador](https://jpescador.com). I've noticed that the theme repository hasn't been updated since early **2018** and has >15 PRs, thus why this is here (for my own features, and the extension of the theme by others).
+> _**NOTE:** This theme is an extended version of the original Hugo theme, [Hugo Future Imperfect](https://github.com/jpescador/hugo-future-imperfect) by [Julio Pescador](https://jpescador.com). I've noticed that the theme repository hasn't been updated since early **2018** and has >15 PRs, thus why this is here (for my own features, and the extension of the theme by others). This felt like a better idea than merely using layout overrides in my personal website [icanteven.io](https://icanteven.io)_
 
 # Hugo Future Imperfect Redux
 
@@ -10,7 +10,7 @@ that have been added for you to utilize.
 ![Hugo Future Imperfect Screenshot](https://raw.githubusercontent.com/jpescador/hugo-future-imperfect/master/images/screenshot.png)
 
 Check out this [site](https://themes.gohugo.io/theme/future-imperfect/) if you are
-interested in seeing a live example.
+interested in seeing a live example of Hugo Future Imperfect.
 
 ## Table of Contents
 
@@ -27,7 +27,9 @@ interested in seeing a live example.
 	- [img-post](#img-post)
 	- [img-fit](#img-fit)
 	- [url-link](#url-link)
-- [About the Author](#about-the-author)
+- [New Redux Features](#new-redux-features)
+    - [TinyLetter Support](#tinyLetter-support)
+- [About the Authors](#about-the-authors)
 - [License](#license)
 
 <!-- /TOC -->
@@ -226,7 +228,22 @@ Please refer to _layouts/shortcodes/url-link.html_ for more details on the funct
 
 Credit: [jpescador]
 
-## About the Author
+## New Redux Features
+
+This **Redux** version of this repository has some new features.
+
+### TinyLetter Support
+
+Adding `tinyletter` to your `config.toml` will embed a [TinyLetter](https://tinyletter.com) subscription box in both the sidebar and navbar.
+
+```toml
+# config.toml / .Site.Params.tinyletter
+tinyletter = 'https://tinyletter.com/icantevenio'
+```
+
+Credit: [scriptautomate]
+
+## About the Authors
 
 Hugo Future Imperfect was ported by [Julio Pescador](https://jpescador.com). Extra
 features implemented by the [project contributors](https://github.com/jpescador/hugo-future-imperfect/graphs/contributors).
@@ -234,9 +251,14 @@ features implemented by the [project contributors](https://github.com/jpescador/
 Send Julio Pescador a tweet [@julio_pescador](https://twitter.com/julio_pescador),
 if you like the theme and are using it for your own personal use.
 
+### Redux Features
+
+Hugo Future Imperfect Redux is an extended, public clone  of Hugo Future Imperfect. It's managed by [Derek Ardolf](https://icanteven.io), who uses Twitter under [@ScriptAutomate](https://twitter.com/scriptautomate).
+
 ## License
 
 This theme is released under the MIT license. Please read the [license](https://github.com/jpescador/hugo-future-imperfect/blob/master/LICENSE.md) for more information.
 
 [jpescador]: https://github.com/jpescador
 [pacollins]: https://github.com/pacollins
+[scriptautomate]: https://github.com/scriptautomate

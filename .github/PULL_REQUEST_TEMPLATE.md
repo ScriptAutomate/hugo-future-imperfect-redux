@@ -40,6 +40,6 @@
 - [ ] I have updated the documentation, including `theme.toml`, accordingly.
 - [ ] I have read the [Contributing Document].
 
-[Code Style]: https://github.com/jpescador/hugo-future-imperfect/blob/master/.github/CONTRIBUTING.md#Style-Guide
-[Contributing Document]: https://github.com/jpescador/hugo-future-imperfect/blob/master/.github/CONTRIBUTING.md
-[Documentation]: https://github.com/jpescador/hugo-future-imperfect/wiki
+[Code Style]: https://github.com/scriptautomate/hugo-future-imperfect-redux/blob/master/.github/CONTRIBUTING.md#Style-Guide
+[Contributing Document]: https://github.com/scriptautomate/hugo-future-imperfect-redux/blob/master/.github/CONTRIBUTING.md
+[Documentation]: https://github.com/scriptautomate/hugo-future-imperfect-redux/wiki
