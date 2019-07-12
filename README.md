@@ -41,7 +41,7 @@ Run the following commands in your Hugo site directory:
 ```
 mkdir themes
 cd themes
-git clone https://github.com/jpescador/hugo-future-imperfect.git
+git clone https://github.com/ScriptAutomate/hugo-future-imperfect-redux.git
 ```
 
 You will then have access to the theme at _themes/hugo-future-imperfect_ from within
@@ -246,14 +246,14 @@ Credit: [scriptautomate]
 ## About the Authors
 
 Hugo Future Imperfect was ported by [Julio Pescador](https://jpescador.com). Extra
-features implemented by the [project contributors](https://github.com/jpescador/hugo-future-imperfect/graphs/contributors).
+features implemented by the [project contributors](https://github.com/ScriptAutomate/hugo-future-imperfect-redux/graphs/contributors).
 
 Send Julio Pescador a tweet [@julio_pescador](https://twitter.com/julio_pescador),
 if you like the theme and are using it for your own personal use.
 
 ### Redux Features
 
-Hugo Future Imperfect Redux is an extended, public clone  of Hugo Future Imperfect. It's managed by [Derek Ardolf](https://icanteven.io), who uses Twitter under [@ScriptAutomate](https://twitter.com/scriptautomate).
+Hugo Future Imperfect Redux is an extended, public clone  of Hugo Future Imperfect. It's managed by [Derek Ardolf](https://icanteven.io), who uses Twitter under [@ScriptAutomate](https://twitter.com/scriptautomate). It was initially created as a clone, in order to incorporate new features to be referenced by his personal website (starting with [TinyLetter support](#tinyLetter-support)).
 
 ## License
 
