@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2017 Julio Pescador
+
 Copyright (c) 2019 Derek Ardolf
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
